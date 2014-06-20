@@ -1,0 +1,3 @@
+LIBRARY _pytinyxml2.pyd
+EXPORTS
+PyInit__pytinyxml2
