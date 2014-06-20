@@ -1,7 +1,15 @@
 from setuptools import setup, Extension
 from subprocess import call
+import sys
 swig = "h:\\Python\\swigwin-3.0.2\\swig.exe"
-temp = input("Where is swig?[%s]:" % swig)
+
+if sys.version < '3':
+    def smart_input(x):
+        return raw_input(x)
+else:
+    def smart_input(x):
+        return input(x)
+temp = smart_input("Where is swig?[%s]:" % swig)
 if len(temp) > 0:
     swig = temp
 call([swig, "-python", "-c++", "pytinyxml2.i"])
