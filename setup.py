@@ -7,7 +7,6 @@ except ImportError:
 from setuptools import setup, Extension
 
 
-files = ["tinyxml2.cpp", "pytinyxml2_wrap.cxx"]
 
 setup(name="pytinyxml2",
       description="Python wrapper for tinyxml2",
@@ -17,7 +16,9 @@ setup(name="pytinyxml2",
       url="https://github.com/wiadufachen/pytinyxml2",
       py_modules=['pytinyxml2'],
       ext_modules=[
-                    Extension("_pytinyxml2", sources=files)
+                    Extension("_pytinyxml2", ['pytinyxml2.i',
+                                               "tinyxml2.cpp"],
+                              swig_opts=['-c++'])
                     ],
       classifiers=["Programming Language :: Python",
              "Programming Language :: Python :: 3",

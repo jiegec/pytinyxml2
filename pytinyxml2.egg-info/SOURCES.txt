@@ -1,6 +1,6 @@
 README.txt
+pytinyxml2.i
 pytinyxml2.py
-pytinyxml2_wrap.cxx
 setup.py
 tinyxml2.cpp
 pytinyxml2.egg-info/PKG-INFO
