@@ -5,5 +5,5 @@ python:
   - "3.2"
   - "3.3"
 script: 
-  - gcc tinyxml2.cpp xmltest.cpp -o xmltest
+  - g++ tinyxml2.cpp xmltest.cpp -o xmltest
   - ./xmltest
