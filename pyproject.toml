@@ -3,6 +3,7 @@ name = "pytinyxml2"
 version = "2.1.1"
 description = "Python wrapper for tinyxml2"
 readme = "README.md"
+license = { file = "LICENSE" }
 authors = [
     { name = "Jiajie Chen", email = "c@jia.je" },
 ]
