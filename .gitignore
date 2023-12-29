@@ -4,3 +4,6 @@
 dist
 build
 *__pycache__*
+venv
+pytinyxml2_wrap.cpp
+pytinyxml2.py
