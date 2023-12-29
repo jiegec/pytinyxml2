@@ -1,6 +1,6 @@
 [project]
 name = "pytinyxml2"
-version = "2.1.1"
+version = "2.1.2"
 description = "Python wrapper for tinyxml2"
 readme = "README.md"
 license = { file = "LICENSE" }

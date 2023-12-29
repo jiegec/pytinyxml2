@@ -4,7 +4,7 @@ Python library to wrap the [tinyxml2](https://github.com/leethomason/tinyxml2) l
 
 ## Installation
 
-Just like other ones, just type:
+Like other ones, just type:
 
 ```shell
 pip3 install pytinyxml2
